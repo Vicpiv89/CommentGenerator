@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.commentButton {
+  border: none;
+  background-color: rgba(255, 189, 66, 0.93);
+  border-radius: 2px;
+  margin-left: 30px;
+  float: center;
+  color: white;
+}
+
+/* MAIN PAGE */
+.main {
+  font-size: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.title {
+  color: rgba(255, 189, 66, 0.93);
+  font-size: 70px;
+}
+/* MAIN PAGE */
+
+/*COMMENT COMPONENT*/
+  .commenttitle {
+    color: white;
+    font-size: 40px;
+  }
+  
+  .actualcomment {
+    color: black;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .comments {
+    font-size: 23px;
+    background-color:rgba(255, 189, 66, 0.93);
+    padding: 7px;
+    border-radius: 3px;
+    margin-left: 3px;
+    color: white;
+  }
+
+  .comments p {
+    display: inline-block;
+  }
+/*COMMENT COMPONENT*/
